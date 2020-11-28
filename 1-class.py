@@ -21,16 +21,24 @@ class Fish:
     def fish_dead(self):
         #fish dead
         pass
+    def fishStatus(self):
+        print("Hello my name is", self.name)
+        print("my age:", self.age)
+        print("my mass:", self.mass)
+        print("my health:", self.health)
 
 class Bream(Fish):
     pass
+   
 class Roach(Fish):
     pass
 class Skremers(Fish):
     pass
 
 
-b = Bream()
+bream1 = Bream(2,1,100,"Bream")
+
+bream1.fishStatus()
 
 
 
